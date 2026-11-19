@@ -1,4 +1,4 @@
-UUID       = rudra@narkagni
+UUID       = rudra@skye-xd.github.io
 INSTALL_PATH = $(HOME)/.local/share/gnome-shell/extensions/$(UUID)
 SCHEMAS_DIR  = schemas
 
