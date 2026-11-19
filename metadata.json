@@ -7,11 +7,10 @@
   "name": "Rudra",
   "settings-schema": "org.gnome.shell.extensions.rudra",
   "shell-version": [
-    "45",
-    "46",
-    "47",
     "48",
-    "49"
+    "49",
+    "50",
+    "51"
   ],
   "url": "https://github.com/narkagni/rudra",
   "uuid": "rudra@skye-xd.github.io",

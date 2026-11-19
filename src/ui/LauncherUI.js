@@ -161,7 +161,7 @@ export class LauncherUI {
         }));
 
         this._box = new St.BoxLayout({
-            vertical: true, 
+            orientation: Clutter.Orientation.VERTICAL, 
             width: 660, 
             reactive: true,
             style_class: 'launcher-box',
@@ -170,7 +170,7 @@ export class LauncherUI {
         });
 
         this._headerBox = new St.BoxLayout({ 
-            vertical: false, 
+            orientation: Clutter.Orientation.HORIZONTAL, 
             reactive: true, 
             style_class: 'launcher-header', 
             x_expand: true 

@@ -39,7 +39,7 @@ export class SearchResults {
         });
 
         this._contentBox = new St.BoxLayout({ 
-            vertical: true, 
+            orientation: Clutter.Orientation.VERTICAL, 
             x_expand: true, 
             style_class: 'results-content-box' 
         });
@@ -367,7 +367,7 @@ export class SearchResults {
         });
 
         let rowBox = new St.BoxLayout({ 
-            vertical: false, 
+            orientation: Clutter.Orientation.HORIZONTAL, 
             x_expand: true, 
             y_align: Clutter.ActorAlign.CENTER, 
             style_class: 'result-row' 
@@ -385,7 +385,7 @@ export class SearchResults {
         }
 
         let textColumn = new St.BoxLayout({ 
-            vertical: true, 
+            orientation: Clutter.Orientation.VERTICAL, 
             x_expand: true, 
             y_align: Clutter.ActorAlign.CENTER, 
             style_class: 'result-text-col' 
